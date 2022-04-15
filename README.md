@@ -5,7 +5,7 @@ This is the library that contains nothing but `AppleDevice` Enum with sizes and 
 # Installation - SPM Only
 
 ```bash
-    https://github.com/paigeshin/AppleDeviceKit
+https://github.com/paigeshin/AppleDeviceKit
 ```
 
 # Properties

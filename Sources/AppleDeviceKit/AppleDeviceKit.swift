@@ -72,7 +72,7 @@ public enum AppleDevice {
     case iPodtouch1stgen
     
     
-    var logicalWidth: CGFloat {
+    public var logicalWidth: CGFloat {
         switch self {
         case .iPhone13: return 390
         case .iPhone13mini: return 375
@@ -146,7 +146,7 @@ public enum AppleDevice {
         }
     }
     
-    var logicalHeight: CGFloat {
+    public var logicalHeight: CGFloat {
         switch self {
         case .iPhone13: return 844
         case .iPhone13mini: return 812
@@ -221,7 +221,7 @@ public enum AppleDevice {
         }
     }
     
-    var physicalWidth: CGFloat {
+    public var physicalWidth: CGFloat {
         switch self {
         case .iPhone13: return 1170
         case .iPhone13mini: return 1080
@@ -296,7 +296,7 @@ public enum AppleDevice {
         }
     }
     
-    var physicalHeight: CGFloat {
+    public var physicalHeight: CGFloat {
         switch self {
         case .iPhone13: return 2532
         case .iPhone13mini: return 2340
@@ -371,7 +371,7 @@ public enum AppleDevice {
         }
     }
     
-    var ppi: CGFloat {
+    public var ppi: CGFloat {
         switch self {
         case .iPhone13: return 460
         case .iPhone13mini: return 476
@@ -446,7 +446,7 @@ public enum AppleDevice {
         }
     }
     
-    var scaleFactor: CGFloat {
+    public var scaleFactor: CGFloat {
         switch self {
         case .iPhone13: return 3
         case .iPhone13mini: return 3
@@ -521,7 +521,7 @@ public enum AppleDevice {
         }
     }
     
-    var screenDiagonal: CGFloat {
+    public var screenDiagonal: CGFloat {
         switch self {
         case .iPhone13: return 6.06
         case .iPhone13mini: return 5.42
@@ -596,7 +596,7 @@ public enum AppleDevice {
         }
     }
     
-    var release: String {
+    public var release: String {
         switch self {
         case .iPhone13: return "2021-09-14"
         case .iPhone13mini: return "2021-09-14"
