@@ -27,3 +27,6 @@ device.logicalHeight
 device.logicalWidth
 device.release
 ```
+# Inspired By
+
+https://www.ios-resolution.com/
