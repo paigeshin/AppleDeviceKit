@@ -18,3 +18,12 @@ https://github.com/paigeshin/AppleDeviceKit
 - scaleFactor
 - screenDiagonal
 - release
+
+# How to use
+
+```swift
+let device = AppleDevice.iPad1stgen
+device.logicalHeight
+device.logicalWidth
+device.release
+```
